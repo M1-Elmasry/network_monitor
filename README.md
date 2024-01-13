@@ -1,24 +1,24 @@
-## CLI Network Monitor for linux
-<p align="center">
-  <img src="./images/image_2023-05-08_04-10-59.png">
-</p>
+![Demo Image](images/network_monitor_screenshoot.png)
 
-### to install it
-first install psutil module
-```
-pip install psutil
-```
-clone the repo
-```
-git clone https://github.com/M1-Elmasry/CLI_network_monitor.git && cd CLI_network_monitor/
-```
-then add the main file to bin dir and make it executable and rename it with the name you want  
-in my case i will rename it with "net_monitor"
-```
-mv ./network.py /usr/bin/net_monitor
-sudo chmod +711 /usr/bin/net_monitor
-```
-execute
-```
-net_monitor
-```
+# Network Usage Monitor
+
+A simple Python script to monitor real-time network usage on your device.
+
+## Usage
+
+1. **Run the Script:**
+   - Make sure you have Python 3.x installed.
+   - Execute the script using: `python script_name.py`
+
+2. **Monitor Network Usage:**
+   - The script displays total data downloaded/uploaded and individual interface statistics.
+   - Interface-specific details include download/upload speed.
+
+## Requirements
+
+- Python 3.x
+- psutil library (`pip install psutil`)
+
+## Contributing
+
+If you encounter issues or have suggestions, please open an issue or submit a pull request. Contributions are appreciated!
